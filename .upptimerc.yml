@@ -1,6 +1,6 @@
 # Change these first
-owner: FernandoQuiguantar # Tu usuario de GitHub
-repo: TallerGHA2 # El nombre de tu repositorio
+owner: FernandoQuiguantar
+repo: TallerGHA2
 
 sites:
   - name: Google
@@ -8,17 +8,14 @@ sites:
   - name: Wikipedia
     url: https://en.wikipedia.org
   - name: Sitio Caido Prueba
-    url: https://sitio-que-no-existe-12345.com # Sitio roto para probar alertas
+    url: https://sitio-que-no-existe-12345.com
 
 status-website:
-
- 
   baseUrl: /TallerGHA2
-  
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: Monitor de Servicios
   introTitle: "**Upptime** Monitoreo de Servicios"
-  introMessage: Página de estado en tiempo real impulsada por GitHub Actions[cite: 1].
+  introMessage: Pagina de estado en tiempo real impulsada por GitHub Actions.
   navbar:
     - title: Status
       href: /
